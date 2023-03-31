@@ -7,11 +7,12 @@ import Navbar from './components/Navbar'
 const App = () => {
   return (
     <>
-    <Header>
       <Navbar/>
-    </Header>
+    <Header>
+      </Header>
+    {/* 
       <Main></Main>
-    <Footer/>
+     <Footer/> */}
      </>
   )
 }

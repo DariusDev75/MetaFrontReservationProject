@@ -1,8 +1,10 @@
 import React from 'react'
+import styled from 'styled-components';
 
 const Footer = () => {
   return (
     <>
+    
        <ul>
     <li><a href="/home">Chicago</a></li>
     <li><a href="/about">ABOUT Us</a></li>
@@ -30,5 +32,17 @@ const Footer = () => {
     </>
   )
 }
+
+// styles
+
+const Navigation = styled.div`
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+
+`;
 
 export default Footer
